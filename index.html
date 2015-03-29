@@ -388,6 +388,7 @@ Reveal.addEventListener( 'customevent', function() {
 				progress: true,
 				history: true,
 				center: true,
+				autoSlide: 20000,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -401,12 +402,6 @@ Reveal.addEventListener( 'customevent', function() {
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
-
-            // Slide every 20 seconds
-            Reveal.configure({
-              autoSlide: 20000
-            });
-
 		</script>
 
 	</body>
