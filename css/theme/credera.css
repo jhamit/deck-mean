@@ -259,3 +259,40 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #00008B; }
+
+
+
+/****************
+ * HACKY CREDERA OVERRIDES
+ * ********************/
+/* TODO: MOVE THIS TO A REAL SASS OVERRIDES FILE */
+
+* {
+  text-align: left;
+  border: 0;
+}
+.titleSlide .credera-logo {
+  width: 25%;
+  float: left;
+  padding-top: 8%;
+}
+.reveal section img {
+  border: 0;
+}
+.titleSlide .rightCol {
+  width: 65%;
+  padding-left: 8%;
+  float: right;
+  border-left: 1px solid black;
+}
+.titleSlide .rightCol h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.titleSlide .rightCol p {
+  font-size: .5em;
+  color: #7D8082;
+}
+.titleSlide .rightCol  img {
+  width: 300px;
+}
