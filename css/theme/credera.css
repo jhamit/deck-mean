@@ -278,6 +278,7 @@ body {
 }
 .reveal section img {
   border: 0;
+  box-shadow: none;
 }
 .titleSlide .rightCol {
   width: 65%;
